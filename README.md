@@ -26,3 +26,15 @@ Do note if your hardware differs, while unlikely, you may have issues.
 - The touchpad tends to stick to lines and is very sensitive. You can lower the sensitivity in System Preferences to make the issue less severe.
 
 If you notice any other problems, please open an issue (or pull request if you have a fix)
+
+### BIOS settings
+If you do not set these BIOS settings, macOS will **not** boot.
+- System Configuration -> Boot Options -> Uncheck "Fast Boot"
+- System Configuration -> Boot Options -> Uncheck "SecureBoot"
+- System Configuration -> Boot Options -> Boot Mode -> UEFI Hybrid (With CSM)
+    - You're supposed to disable CSM on most systems, it's a miracle macOS even works with it enabled on our ProBook, however you MUST have CSM enabled, HP's UEFI implementation is borked and the screen will scramble in most OS's with CSM off.
+- System Configuration -> Device Configurations -> SATA Device Mode -> AHCI
+- System Configuration -> Device Configurations -> Check "Virtualization Technology (VTx)
+- System Configuration -> Device Configurations -> Uncheck "Virtualization Technology for Directed I/O (VTd)
+- System Configuration -> Port Options -> Uncheck "Serial port"
+- System Configuration -> Port Options -> Uncheck "Parallel port"
