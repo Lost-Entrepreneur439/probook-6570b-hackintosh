@@ -24,4 +24,5 @@ Do note if your hardware differs, while unlikely, you may have issues.
 - The SD Card reader does not work. The Alcor card reader HP uses is not supported in macOS.
 - Fingerprint sensor does not work. macOS requires a T1 or T2 chip for fingerprint to work, which only real Macs have, and the drivers for the Synaptics fingerprint sensor used in the 6570b are very closed source.
 - The touchpad tends to stick to lines and is very sensitive. You can lower the sensitivity in System Preferences to make the issue less severe.
+
 If you notice any other problems, please open an issue (or pull request if you have a fix)
