@@ -14,9 +14,9 @@ No. Catalina is the latest supported by MacBookPro9,2, so it's all I'll ever sup
 Do note if your hardware differs, while unlikely, you may have issues.
 - CPU: Intel Core i5-3320m
 - GPU: Intel HD Graphics 4000
-- Chipset: Intel HM77
+- Chipset: Intel QM77
 - Touchpad: Synaptics PS/2
-- Audio: some IDT thing i forgot the exact model
+- Audio: IDT 92HD81B1X
 - Wi-Fi: Intel Centrino Advanced-N 6205
 - Ethernet: Intel 82579LM
 
