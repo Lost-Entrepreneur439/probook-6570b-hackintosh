@@ -4,7 +4,7 @@ macOS Catalina EFI for the HP ProBook 6570b using OpenCore. I will try to keep t
 
 
 # WARNING! SMBIOS DETAILS ARE NOT INCLUDED IN THE CONFIG.PLIST.
-You will have to use [GenSMBIOS](github.com/corpnewt/GenSMBIOS) to generate a **MacBookPro9,2** SMBIOS for your system, and add them to the config.plist.
+You will have to use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate a **MacBookPro9,2** SMBIOS for your system, and add them to the config.plist.
 Make sure you're on BIOS [F74](https://ftp.hp.com/pub/softpaq/sp96001-96500/sp96091.exe) before continuing. Older versions may cause issues
 
 ## Other macOS versions?
